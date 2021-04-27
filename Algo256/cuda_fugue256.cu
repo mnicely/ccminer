@@ -4,7 +4,7 @@
 #include "sph/sph_fugue.h"
 
 #include "cuda_helper.h"
-#include <host_defines.h>
+#include <cuda_runtime.h>
 
 #define USE_SHARED 1
 

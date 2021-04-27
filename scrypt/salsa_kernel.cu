@@ -242,7 +242,12 @@ inline int _ConvertSMVer2Cores(int major, int minor)
 		{ 0x35, 192 }, // Kepler Generation (SM 3.5) GK11x class
 		{ 0x50, 128 }, // Maxwell First Generation (SM 5.0) GTX750/750Ti
 		{ 0x52, 128 }, // Maxwell Second Generation (SM 5.2) GTX980 = 2048 cores / 16 SMs - GTX970 1664 cores / 13 SMs
-		{ 0x61, 128 }, // Pascal GeForce (SM 6.1)
+		{ 0x60, 64 }, // Pascal GeForce (SM 6.0) GP100 class
+		{ 0x61, 128 }, // Pascal GeForce (SM 6.1) GP10x class
+		{ 0x70, 64 }, // Volta GeForce (SM 7.0) GV100 class
+		{ 0x75, 64 }, // Turing GeForce (SM 7.5) TU10x class
+		{ 0x80, 64 }, // Ampere GeForce (SM 8.0) GA100 class
+		{ 0x86, 128 }, // Ampere GeForce (SM 8.6) GA10x class
 		{ -1, -1 },
 	};
 
